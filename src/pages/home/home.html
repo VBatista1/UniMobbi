@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-navbar>
+    
+    <ion-title>Principal</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-left text-wrap (click)="logout()" >
+        <ion-icon name="ios-log-out"></ion-icon>  <span *ngIf="displayname">{{displayname}}</span>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+
+    <ion-card-header>
+      Informação
+    </ion-card-header>
+
+    <ion-card-content>
+
+      Criado com ionic
+	  
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>
